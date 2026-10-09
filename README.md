@@ -10,7 +10,7 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
   <img src="assets/tasy-flow.png" alt="Paleta Alt+P do Ataho" width="440" />
 </p>
 
-> **Versão 1.7.4** · Projeto independente. Não é um produto oficial da Bionexo ou do Tasy.
+> **Versão 1.7.10** · Projeto independente. Não é um produto oficial da Bionexo ou do Tasy.
 
 [![Downloads](https://img.shields.io/github/downloads/fernandobaptistaneto/ataho/total?label=downloads)](https://github.com/fernandobaptistaneto/ataho/releases)
 
@@ -18,10 +18,10 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 
 | Versão | Para quem | Link |
 | --- | --- | --- |
-| **1.7.4 (mais recente)** | Quer as novidades abaixo | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/latest/download/Ataho.zip) |
+| **1.7.10 (mais recente)** | Quer as novidades abaixo | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/latest/download/Ataho.zip) |
 | **1.5.25 (estável)** | Prefere a versão mais testada | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/download/v1.5.25/Ataho.zip) |
 
-## Novidades da 1.7.4
+## Novidades da 1.7.10
 
 - **Abrir função (Alt + O):** pesquise qualquer função liberada no seu perfil. As funções já abertas aparecem no topo.
 - **Último filtro e último caminho no Alt + O:** embaixo de cada função aparece o último filtro que você aplicou e o último lugar em que estava (registro aberto, menu e abas). Selecione essa linha para abrir a função já filtrada e no mesmo lugar.
