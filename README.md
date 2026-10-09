@@ -122,11 +122,38 @@ A busca pode ser desligada em **Preferências**, no ícone do Ataho.
 
 ### Mapear tela
 
-1. Pressione **Alt + M** e clique na área da tela que deseja mapear (**Esc** cancela).
-2. O relatório lista cada campo com label, atributo, tabela, tipo, tamanho, se é obrigatório e o valor atual.
-3. Clique na quantidade de valores de um campo para ver a lista completa de códigos e descrições; **Enter** copia o valor selecionado.
-4. Use **Filtrar** para achar um campo, **Copiar** para a área de transferência ou **Salvar .txt / .json** para guardar o relatório no seu computador.
-5. **Mapear de novo** refaz a leitura em outra área.
+Mostra, para cada campo de uma tela do Tasy, as informações técnicas que normalmente exigem abrir o dicionário de dados: atributo, tabela, tipo, tamanho, obrigatoriedade e a lista de valores aceitos.
+
+**1. Escolha a área.** Pressione **Alt + M**. Aparece o aviso **"Clique na área que deseja mapear"** e o Ataho destaca a área sob o mouse. Clique no formulário ou painel que quer mapear (**Esc** cancela).
+
+![Selecionar a área para mapear](assets/mapear-selecionar.png)
+
+**2. Leia o relatório.** O painel **ATAHO MAP // RELATÓRIO** abre ao lado, com um cartão por campo:
+
+- **Label**, **Atributo** (ex.: `CD_CATEGORIA`), **Tabela** (ex.: `CONVENIO_AMB`), **Tipo de atributo**, **Tamanho**, **Obrigatório** (S/N) e **Módulo**.
+- A etiqueta no canto do cartão indica o tipo do campo (ex.: **Cadastro**, **Livre**).
+- Em **Valores do campo** aparecem os códigos aceitos e suas descrições (ex.: `1 - Particular`, `2 - Desconto AMB`).
+- No rodapé, o total de campos mapeados e quantos são obrigatórios.
+
+![Relatório do mapeamento](assets/mapear-relatorio.png)
+
+**3. Veja todos os valores.** Quando o campo tem muitos valores, o cartão mostra só os primeiros e, embaixo, um link como **+34 valores**. Clique nele para abrir a lista completa.
+
+![Campo com +34 valores](assets/mapear-mais-valores.png)
+
+**4. Pesquise e copie na lista completa.** A janela de valores mostra o nome do campo (com botão para copiar o atributo), uma busca por **valor ou descrição** e a quantidade de itens. Ordene clicando em **Valor** ou **Descrição**, navegue com **↑ ↓**, copie o código com **Enter** e feche com **Esc**.
+
+![Lista completa de valores do campo](assets/mapear-valores.png)
+
+**5. Use o relatório.**
+
+- **Filtrar pela label, atributo ou valor** encontra um campo rapidamente.
+- **Copiar** manda o relatório para a área de transferência.
+- **Salvar .txt / Salvar .json** baixa o relatório como arquivo, pelo download normal do Chrome.
+- **Mapear de novo** volta para a seleção de área.
+- O indicador **LIVE** acende enquanto o Ataho está lendo os campos; a barra no rodapé mostra o progresso. **—** minimiza e **×** fecha.
+
+O mapeamento só lê a tela. Nada é alterado no Tasy.
 
 ## Privacidade
 
