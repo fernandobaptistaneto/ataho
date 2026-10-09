@@ -78,9 +78,11 @@ No **PEP**, o Ataho reabre o mesmo atendimento que estava aberto. Isso depende d
 
 ### Abrir função
 
+![Abrir função com o último caminho](assets/abrir-funcao-caminho.png)
+
 1. Pressione **Alt + O** e digite parte do nome da função.
 2. **Enter** abre a função.
-3. Se aparecer uma linha com a etiqueta **filtro** ou **caminho** embaixo da função, selecione essa linha para abrir já com o último filtro e no último lugar em que você estava.
+3. Se aparecer uma linha com a etiqueta **filtro** ou **caminho** embaixo da função (como **Particular › Convênio** na imagem), selecione essa linha: o Ataho abre a função e reconstitui o último caminho, com filtro, registro, menu e abas em que você estava.
 
 #### PEP com atendimento
 
