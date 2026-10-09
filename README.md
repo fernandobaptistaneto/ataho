@@ -26,6 +26,8 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 - **Abrir função (Alt + O):** pesquise qualquer função liberada no seu perfil. As funções já abertas aparecem no topo.
 - **Último filtro e último caminho no Alt + O:** embaixo de cada função aparece o último filtro que você aplicou e o último lugar em que estava (registro aberto, menu e abas). Selecione essa linha para abrir a função já filtrada e no mesmo lugar.
 - **Troca de perfil volta para onde você estava:** ao trocar de perfil e escolher reabrir, o Ataho reabre a função, aplica o filtro, entra no registro, seleciona o menu e as abas em que você estava.
+- **Atendimento do PEP na troca de perfil:** com um atendimento aberto no Prontuário Eletrônico do Paciente, ao trocar de perfil o Ataho reabre o PEP já no mesmo atendimento. Se o novo perfil não tiver acesso ao setor do paciente, aparece um aviso.
+- **Mapear tela (Alt + M):** clique em uma área da tela e o Ataho lista todos os campos dela: label, atributo, tabela, tipo, tamanho, obrigatoriedade, valor atual e a lista de valores possíveis de cada campo. Dá para filtrar, copiar e salvar o relatório em .txt ou .json.
 - **Trocar estabelecimento (Alt + I):** escolha a empresa e o estabelecimento pela paleta.
 - **Busca nos menus dropdown:** um campo de pesquisa aparece nos menus de três pontinhos e nas listas dropdown do Tasy. Dá para desligar no ícone da extensão.
 - **Tela de carregamento própria** enquanto o Ataho aplica filtro e caminho, para você saber que ele está trabalhando.
@@ -37,6 +39,7 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 | **Alt + P** | Trocar perfil |
 | **Alt + O** | Abrir função (com último filtro e caminho) |
 | **Alt + I** | Trocar estabelecimento |
+| **Alt + M** | Mapear os campos da tela |
 | **Alt + 1**, **Alt + 2**... | Escolher a opção numerada nas perguntas da paleta |
 
 Na paleta: **↑ ↓** navegam, **Enter** seleciona e **Esc** fecha.
@@ -70,6 +73,8 @@ Na paleta: **↑ ↓** navegam, **Enter** seleciona e **Esc** fecha.
 
 A função só é reaberta se estiver liberada no perfil de destino.
 
+No **PEP**, o Ataho reabre o mesmo atendimento que estava aberto. Isso depende de o perfil de destino ter acesso ao setor do paciente; se não tiver, aparece um aviso e basta clicar na tela para fechá-lo.
+
 ### Abrir função
 
 1. Pressione **Alt + O** e digite parte do nome da função.
@@ -82,6 +87,14 @@ O Ataho guarda só o **último** filtro e caminho de cada função, separado por
 
 1. Pressione **Alt + I**.
 2. Escolha a empresa (se houver mais de uma) e depois o estabelecimento.
+
+### Mapear tela
+
+1. Pressione **Alt + M** e clique na área da tela que deseja mapear (**Esc** cancela).
+2. O relatório lista cada campo com label, atributo, tabela, tipo, tamanho, se é obrigatório e o valor atual.
+3. Clique na quantidade de valores de um campo para ver a lista completa de códigos e descrições; **Enter** copia o valor selecionado.
+4. Use **Filtrar** para achar um campo, **Copiar** para a área de transferência ou **Salvar .txt / .json** para guardar o relatório no seu computador.
+5. **Mapear de novo** refaz a leitura em outra área.
 
 ## Privacidade
 
