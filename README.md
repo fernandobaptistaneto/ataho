@@ -30,7 +30,7 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 - **Atendimento do PEP na troca de perfil:** com um atendimento aberto no Prontuário Eletrônico do Paciente, ao trocar de perfil o Ataho reabre o PEP já no mesmo atendimento. Se o novo perfil não tiver acesso ao setor do paciente, aparece um aviso.
 - **Mapear tela (Alt + M):** clique em uma área da tela e o Ataho lista todos os campos dela: label, atributo, tabela, tipo, tamanho, obrigatoriedade, valor atual e a lista de valores possíveis de cada campo. Dá para filtrar, copiar e salvar o relatório em .txt ou .json.
 - **Trocar estabelecimento (Alt + I):** escolha a empresa e o estabelecimento pela paleta.
-- **Busca nos menus dropdown:** um campo de pesquisa aparece nos menus de três pontinhos e nas listas dropdown do Tasy. Dá para desligar no ícone da extensão.
+- **Busca nos menus e listas:** um campo **Filtrar** aparece no menu de navegação das funções, nos menus de três pontinhos e nos campos de seleção (select) dos filtros e dos formulários de cadastro. Dá para desligar no ícone da extensão.
 - **Tela de carregamento própria** enquanto o Ataho aplica filtro e caminho, para você saber que ele está trabalhando.
 
 ## Atalhos
@@ -99,6 +99,26 @@ O Ataho guarda só o **último** filtro e caminho de cada função, separado por
 
 1. Pressione **Alt + I**.
 2. Escolha a empresa (se houver mais de uma) e depois o estabelecimento.
+
+### Busca nos menus e listas
+
+Ao abrir um menu ou uma lista do Tasy, o Ataho coloca um campo **Filtrar** no topo. Digite parte do texto (acentos e maiúsculas não importam) para encontrar a opção sem rolar a lista.
+
+**Menu de navegação da função** (ex.: Convênio, Regras, Preços…):
+
+![Filtro no menu de navegação](assets/busca-menu-navegacao.png)
+
+**Menu de três pontinhos**, com todas as abas que não cabem na tela:
+
+![Filtro no menu de três pontinhos](assets/busca-tres-pontos.png)
+
+![Menu de três pontinhos filtrado](assets/busca-tres-pontos-filtrado.png)
+
+**Campos de seleção** nos filtros e nos formulários de inserção de dados:
+
+![Filtro em campo de seleção](assets/busca-select-campo.png)
+
+A busca pode ser desligada em **Preferências**, no ícone do Ataho.
 
 ### Mapear tela
 
