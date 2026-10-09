@@ -26,6 +26,7 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 - **Abrir função (Alt + O):** pesquise qualquer função liberada no seu perfil. As funções já abertas aparecem no topo.
 - **Último filtro e último caminho no Alt + O:** embaixo de cada função aparece o último filtro que você aplicou e o último lugar em que estava (registro aberto, menu e abas). Selecione essa linha para abrir a função já filtrada e no mesmo lugar.
 - **Troca de perfil volta para onde você estava:** ao trocar de perfil e escolher reabrir, o Ataho reabre a função, aplica o filtro, entra no registro, seleciona o menu e as abas em que você estava.
+- **PEP com atendimento pelo Alt + O:** ao escolher o Prontuário Eletrônico do Paciente, o Ataho pergunta qual atendimento abrir e mostra os últimos que você usou. Dá para digitar um número novo ou filtrar pelo nome. Com o PEP já aberto, selecione-o de novo no Alt + O e escolha outro atendimento para trocar de paciente sem passar pelo Localizar Pessoas.
 - **Atendimento do PEP na troca de perfil:** com um atendimento aberto no Prontuário Eletrônico do Paciente, ao trocar de perfil o Ataho reabre o PEP já no mesmo atendimento. Se o novo perfil não tiver acesso ao setor do paciente, aparece um aviso.
 - **Mapear tela (Alt + M):** clique em uma área da tela e o Ataho lista todos os campos dela: label, atributo, tabela, tipo, tamanho, obrigatoriedade, valor atual e a lista de valores possíveis de cada campo. Dá para filtrar, copiar e salvar o relatório em .txt ou .json.
 - **Trocar estabelecimento (Alt + I):** escolha a empresa e o estabelecimento pela paleta.
@@ -80,6 +81,15 @@ No **PEP**, o Ataho reabre o mesmo atendimento que estava aberto. Isso depende d
 1. Pressione **Alt + O** e digite parte do nome da função.
 2. **Enter** abre a função.
 3. Se aparecer uma linha com a etiqueta **filtro** ou **caminho** embaixo da função, selecione essa linha para abrir já com o último filtro e no último lugar em que você estava.
+
+#### PEP com atendimento
+
+![Abrir o PEP já com um atendimento](assets/pep-atendimento.jpg)
+
+1. No **Alt + O**, escolha **Prontuário Eletrônico Paciente - PEP**.
+2. O Ataho pergunta o atendimento: escolha um dos últimos da lista, digite parte do nome para filtrar ou informe um número novo.
+3. **Abrir** (**Alt + 1**) abre o PEP já no atendimento escolhido. **Agora não** (**Alt + 2**) abre o PEP sem escolher atendimento (ou só traz o PEP para frente, se já estiver aberto).
+4. Com o PEP já aberto (etiqueta **EM FOCO**), selecione-o de novo e escolha outro atendimento para trocar de paciente direto.
 
 O Ataho guarda só o **último** filtro e caminho de cada função, separado por estabelecimento. Filtros que já vêm preenchidos pelo Tasy (como "Situação: Ativos") não contam.
 
