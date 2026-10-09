@@ -27,7 +27,6 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 - **Último filtro e último caminho no Alt + O:** embaixo de cada função aparece o último filtro que você aplicou e o último lugar em que estava (registro aberto, menu e abas). Selecione essa linha para abrir a função já filtrada e no mesmo lugar.
 - **Troca de perfil volta para onde você estava:** ao trocar de perfil e escolher reabrir, o Ataho reabre a função, aplica o filtro, entra no registro, seleciona o menu e as abas em que você estava.
 - **Trocar estabelecimento (Alt + I):** escolha a empresa e o estabelecimento pela paleta.
-- **Fechar e navegar entre funções:** **Alt + C** fecha a função em foco; **Alt + ←** e **Alt + →** alternam entre as funções abertas.
 - **Busca nos menus dropdown:** um campo de pesquisa aparece nos menus de três pontinhos e nas listas dropdown do Tasy. Dá para desligar no ícone da extensão.
 - **Tela de carregamento própria** enquanto o Ataho aplica filtro e caminho, para você saber que ele está trabalhando.
 
@@ -38,13 +37,11 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 | **Alt + P** | Trocar perfil |
 | **Alt + O** | Abrir função (com último filtro e caminho) |
 | **Alt + I** | Trocar estabelecimento |
-| **Alt + C** | Fechar a função em foco |
-| **Alt + ←** / **Alt + →** | Função aberta anterior / próxima |
 | **Alt + 1**, **Alt + 2**... | Escolher a opção numerada nas perguntas da paleta |
 
 Na paleta: **↑ ↓** navegam, **Enter** seleciona e **Esc** fecha.
 
-> Se algum atalho não funcionar, ajuste em `chrome://extensions/shortcuts`. O Chrome usa **Alt + ← / →** para voltar e avançar páginas; associe essas teclas a "Função aberta anterior" e "Próxima função aberta".
+> Se algum atalho não funcionar, ajuste em `chrome://extensions/shortcuts`.
 
 ## Instalação
 
