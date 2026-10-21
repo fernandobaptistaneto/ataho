@@ -10,7 +10,7 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
   <img src="assets/tasy-flow.png" alt="Paleta Alt+P do Ataho" width="440" />
 </p>
 
-> **Versão 1.7.16** · Projeto independente. Não é um produto oficial da Bionexo ou do Tasy.
+> **Versão 1.7.44** · Projeto independente. Não é um produto oficial da Bionexo ou do Tasy.
 
 [![Downloads](https://img.shields.io/github/downloads/fernandobaptistaneto/ataho/total?label=downloads)](https://github.com/fernandobaptistaneto/ataho/releases)
 
@@ -18,20 +18,19 @@ Extensão para Chrome que acelera o dia a dia no Tasy: troque de perfil, abra fu
 
 | Versão | Para quem | Link |
 | --- | --- | --- |
-| **1.7.16 (mais recente)** | Quer as novidades abaixo | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/latest/download/Ataho.zip) |
+| **1.7.44 (mais recente)** | Quer as novidades abaixo | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/latest/download/Ataho.zip) |
 | **1.5.25 (estável)** | Prefere a versão mais testada | [Ataho.zip](https://github.com/fernandobaptistaneto/ataho/releases/download/v1.5.25/Ataho.zip) |
 
-## Novidades da 1.7.16
+## Novidades da 1.7.44
 
-- **Abrir função (Alt + O):** pesquise qualquer função liberada no seu perfil. As funções já abertas aparecem no topo.
-- **Último filtro e último caminho no Alt + O:** embaixo de cada função aparece o último filtro que você aplicou e o último lugar em que estava (registro aberto, menu e abas). Selecione essa linha para abrir a função já filtrada e no mesmo lugar.
-- **Troca de perfil volta para onde você estava:** ao trocar de perfil e escolher reabrir, o Ataho reabre a função, aplica o filtro, entra no registro, seleciona o menu e as abas em que você estava.
-- **PEP com atendimento pelo Alt + O:** ao escolher o Prontuário Eletrônico do Paciente, o Ataho pergunta qual atendimento abrir e mostra os últimos que você usou. Dá para digitar o número de outro atendimento. Com o PEP já aberto, selecione-o de novo no Alt + O e escolha outro atendimento para trocar de paciente sem passar pelo Localizar Pessoas.
-- **Atendimento do PEP na troca de perfil:** com um atendimento aberto no Prontuário Eletrônico do Paciente, ao trocar de perfil o Ataho reabre o PEP já no mesmo atendimento. Se o novo perfil não tiver acesso ao setor do paciente, aparece um aviso.
-- **Mapear tela (Alt + M):** clique em uma área da tela e o Ataho lista todos os campos dela: label, atributo, tabela, tipo, tamanho, obrigatoriedade, valor atual e a lista de valores possíveis de cada campo. Dá para filtrar, copiar e salvar o relatório em .txt ou .json.
-- **Trocar estabelecimento (Alt + I):** escolha a empresa e o estabelecimento pela paleta.
-- **Busca nos menus e listas:** um campo **Filtrar** aparece no menu de navegação das funções, nos menus de três pontinhos e nos campos de seleção (select) dos filtros e dos formulários de cadastro. Dá para desligar no ícone da extensão.
-- **Tela de carregamento própria** enquanto o Ataho aplica filtro e caminho, para você saber que ele está trabalhando.
+- **Troca de estabelecimento (Alt + I) com a função em uso:** fecha as funções abertas e reabre a que você estava usando, se estiver liberada no novo estabelecimento.
+- **PEP na troca de estabelecimento:** com o PEP aberto, se o destino tiver atendimentos recentes, você escolhe qual abrir depois da troca (ou troca sem atendimento).
+- **Caminho na troca de estabelecimento:** se a função em uso tiver filtro/caminho salvo no destino, o Ataho pergunta se quer retomar esse caminho ou só reabrir a função limpa.
+- **Atendimentos do PEP por estabelecimento:** no Alt + O a lista mostra só os atendimentos do estabelecimento atual. Se o atendimento não for encontrado, aparece um aviso.
+- **Mapear tela (Alt + M):** modos **Mapear blocos** e **Selecionar área** (clique e arraste). Botão claro para ver todos os valores.
+- **Mini tutorial** na primeira vez (também em **Ver tutorial**, no ícone da extensão).
+- **Atalhos Alt + I e Alt + M** pedem permissão do site na primeira vez, igual ao Alt + P e Alt + O.
+- Mantém o que já havia na 1.7.16: abrir função com último filtro/caminho, troca de perfil com reabertura, busca nos menus e listas.
 
 ## Atalhos
 
@@ -89,7 +88,7 @@ No **PEP**, o Ataho reabre o mesmo atendimento que estava aberto. Isso depende d
 ![Abrir o PEP já com um atendimento](assets/pep-atendimento.jpg)
 
 1. No **Alt + O**, escolha **Prontuário Eletrônico Paciente - PEP**.
-2. O Ataho pergunta o atendimento: escolha um dos últimos da lista, digite parte do nome para filtrar ou informe um número novo.
+2. O Ataho pergunta o atendimento: escolha um dos últimos da lista (do estabelecimento atual) ou digite o número do atendimento.
 3. **Abrir** (**Alt + 1**) abre o PEP já no atendimento escolhido. **Agora não** (**Alt + 2**) abre o PEP sem escolher atendimento (ou só traz o PEP para frente, se já estiver aberto).
 4. Com o PEP já aberto (etiqueta **EM FOCO**), selecione-o de novo e escolha outro atendimento para trocar de paciente direto.
 
@@ -99,6 +98,9 @@ O Ataho guarda só o **último** filtro e caminho de cada função, separado por
 
 1. Pressione **Alt + I**.
 2. Escolha a empresa (se houver mais de uma) e depois o estabelecimento.
+3. As funções abertas serão fechadas. A função em uso é reaberta no novo estabelecimento, se estiver liberada.
+4. Com o **PEP** aberto, se houver atendimentos salvos no destino, o Ataho pergunta qual abrir depois da troca.
+5. Com outra função aberta, se houver filtro/caminho salvo no destino, o Ataho pergunta se quer retomar esse caminho.
 
 ### Busca nos menus e listas
 
@@ -124,7 +126,7 @@ A busca pode ser desligada em **Preferências**, no ícone do Ataho.
 
 Mostra, para cada campo de uma tela do Tasy, as informações técnicas que normalmente exigem abrir o dicionário de dados: atributo, tabela, tipo, tamanho, obrigatoriedade e a lista de valores aceitos.
 
-**1. Escolha a área.** Pressione **Alt + M**. Aparece o aviso **"Clique na área que deseja mapear"** e o Ataho destaca a área sob o mouse. Clique no formulário ou painel que quer mapear (**Esc** cancela).
+**1. Escolha a área.** Pressione **Alt + M**. Na barra superior escolha **Mapear blocos** (clique em um bloco) ou **Selecionar área** (clique e arraste). **Esc** cancela.
 
 ![Selecionar a área para mapear](assets/mapear-selecionar.png)
 
